@@ -16,7 +16,7 @@ export const AppProvider = ({ children }) => {
     const [updateList, setUpdateList] =useState([])
 
     const handleResetData = () => {
-        setUserInput({ name: "", lastName: "", email: "", phone: "", address: "" })
+        setUserInput({ fullname: "", email: "", phone: "", address: "" })
         setSelectedContactId(false)
     }
     useEffect(()=>{

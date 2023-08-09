@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import useAppContext  from "../Context/appContext";
+import useAppContext from "../Context/AppContext.jsx";
 const Navbar = () => {
 	const { store, actions } = useAppContext();
 
